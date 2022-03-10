@@ -26,9 +26,9 @@ const config: HardhatUserConfig = {
   solidity: "0.8.4",
   networks: {
     ropsten: {
-      url: process.env.ROPSTEN_URL || "",
+      url: process.env.ALCHEMY_PREP_URL_ROPSTEN || "",
       accounts:
-        process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
+        process.env.MASK_PRIVATE_KEY_A1 !== undefined ? [process.env.MASK_PRIVATE_KEY_A1] : [],
     },
   },
   gasReporter: {
@@ -36,7 +36,7 @@ const config: HardhatUserConfig = {
     currency: "USD",
   },
   etherscan: {
-    apiKey: process.env.ETHERSCAN_API_KEY,
+    apiKey: process.env.ETHERSCAN_PREP_API_KEY,
   },
 };
 
