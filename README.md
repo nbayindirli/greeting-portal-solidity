@@ -1,5 +1,9 @@
 # greeting-portal-solidity: [greet.noahbay.io](https://greet.noahbay.io)
 
+### See React TS frontend: https://github.com/nbayindirli/greeting-portal-react-ts
+
+---
+
 (Very) simple hardhat typescript project to enable people to greet me over ethereum at **[greet.noahbay.io](https://greet.noahbay.io)**.
 
 ---
